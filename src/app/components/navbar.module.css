@@ -1,0 +1,58 @@
+.Navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+.Logo > img{
+    width: 200px;
+    height: auto;
+}
+.NavMenu{
+    display: flex;
+    width: 30vw;
+    justify-content: space-between;
+    align-items: center;
+}
+.NavMenu > a{
+    color: rgb(168, 168, 168);
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.NavMenu > a:hover{
+    color: white;
+}
+.SearchBar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.FirstSearchBarDiv{
+    display: flex;
+    background-color: gray;
+    border-radius: 15px;
+    padding: 5px 10px
+}
+.FirstSearchBarDiv > img:first-child{
+    width: 30px;
+    height: auto;
+}
+.FirstSearchBarDiv > img:last-child{
+    width: 15px;
+    height: auto;
+}
+.FirstSearchBarDiv > input{
+    background-color: transparent;
+    outline: none;
+    padding: 0 20px;
+    border: none;
+    color: rgb(255, 255, 255);
+}
+.FirstSearchBarDiv > input::placeholder{
+    color: rgb(255, 255, 255);
+}
+.LastSearchBarDiv > a > img {
+    width: 40px;
+    padding: 0 30px;
+}

@@ -1,0 +1,35 @@
+.Menu{
+    display: -webkit-inline-box;
+    align-items: center;
+    justify-content: center;
+    overflow: scroll;
+    width: 100vw;
+    height: 300px;
+}
+.Menu > div{
+    overflow: hidden;
+}
+.Menu > div > a{
+    padding: 10px 20px;
+    display: block;
+    text-decoration: none;
+    font-weight: bolder;
+    color: rgb(255, 255, 255);
+    width: fit-content;
+}
+.Menu > div > a > img{
+    height: auto;
+    border-radius: 10px;
+}
+.Menu > div > a > div{
+    position: relative;
+    top: -200px;
+    height: 200px;
+    background: linear-gradient(0deg, rgb(22, 49, 53), transparent);
+}
+.Menu > div > a > div > div{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    height: 90%;
+}
